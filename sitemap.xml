@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2023/04/12/user-manual/</loc>
+    
+    <lastmod>2023-04-30T20:40:28.638Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/release/index.html</loc>
+    
+    <lastmod>2023-04-30T20:27:05.339Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/announce/index.html</loc>
+    
+    <lastmod>2023-04-30T20:21:15.605Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/download/index.html</loc>
+    
+    <lastmod>2023-04-30T20:17:29.321Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2023-04-30T05:11:06.206Z</lastmod>
@@ -9,37 +37,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/announce/index.html</loc>
-    
-    <lastmod>2023-04-29T17:05:37.067Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/installation/index.html</loc>
     
     <lastmod>2023-04-26T12:42:19.547Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/download/index.html</loc>
-    
-    <lastmod>2023-04-26T12:39:31.431Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/release/index.html</loc>
-    
-    <lastmod>2023-04-26T12:37:47.658Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2023/04/12/user-manual/</loc>
-    
-    <lastmod>2023-04-20T02:00:24.407Z</lastmod>
     
   </url>
   
