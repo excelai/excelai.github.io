@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/announce/index.html</loc>
+    
+    <lastmod>2023-05-03T09:12:21.669Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2023/04/12/user-manual/</loc>
     
     <lastmod>2023-04-30T20:40:28.638Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://yoursite.com/release/index.html</loc>
     
     <lastmod>2023-04-30T20:27:05.339Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/announce/index.html</loc>
-    
-    <lastmod>2023-04-30T20:21:15.605Z</lastmod>
     
   </url>
   
