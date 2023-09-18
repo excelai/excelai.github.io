@@ -383,8 +383,9 @@
 <h1 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h1><ul>
 <li>公式模块：智能函数、智问公式、公式释义、公式改错</li>
 <li>数据模块：智问转换公式（智换公式）、智能转换数据（智换数据）、数据分析、数据生成</li>
+<li>图表模块：数据图表（1.6.0版新增）</li>
 <li>编程模块：智问代码、定制代码库*</li>
-<li>灵感模块：精彩问答* 、思维导图、智能翻译</li>
+<li>灵感模块：精彩问答* 、图片生成（1.7.1版新增）、思维导图、智能翻译</li>
 <li>对话模块：自主对话、网页模式、手机模式</li>
 <li>帐号模块：注册登录* 、个人中心* 、免费用量* 、账户充值* 、 分享计划* 、退出登录*</li>
 </ul>
@@ -522,9 +523,6 @@
 <li>分析完成后，会自动将公式的错误原因显示在下方的错误原因解答栏当中，并将可能的替代公式显示在建议公式栏当中</li>
 </ul>
 <p><img src="/images/FixError-2.png" alt="FixError-2.png" title="公式改错的对话框"></p>
-<blockquote>
-<p>注意，此功能仅适用于公式出现错误值结果的情况。如果公式运行可以得到错误值以外的结果，只是没有达到您的预期，这种情况下并不适用此功能。您可以尝试使用【自主对话】功能，以对话的方式寻求AI的详细解答。</p>
-</blockquote>
 <ul>
 <li>如果您希望将AI建议的替代公式应用到表格当中，可以直接点击窗口中的【应用到表格】按钮，公式会填入当前所选中的活动单元格当中。当然，您也可以从窗口中手动复制任何内容到任何您需要的地方。</li>
 </ul>
@@ -558,7 +556,7 @@
 
 
 <h3 id="需要注意的情况-3"><a href="#需要注意的情况-3" class="headerlink" title="需要注意的情况"></a>需要注意的情况</h3><ul>
-<li>当选中的活动单元格当中没有包含错误公式时，右键菜单中的公式改错菜单会是灰色的不可用状态。</li>
+<li>当选中的活动单元格当中没有包含公式时，右键菜单中的公式改错菜单会是灰色的不可用状态。</li>
 </ul>
 <h2 id="5-智换公式（智问转换公式）"><a href="#5-智换公式（智问转换公式）" class="headerlink" title="5, 智换公式（智问转换公式）"></a>5, 智换公式（智问转换公式）</h2><p><strong>智换公式可以根据数据的转换目标、或根据您提供的转换示例，自动生成转换公式。</strong></p>
 <p>当你手头有一列数据，想要从中提取出部分信息或将数据按照某种规则转换为另一种样式时，你可能会感到非常头疼，毕竟编写一个复杂的公式可不是一件易事。你甚至可能很难用文字来描述这种转换方式，所以也就无法向搜索引擎问出有效的问题。这时候，智换公式功能就能帮到你了！使用这个功能，你只需要提供转换前后的几个示例，就可以让AI为你设计出一个高效的转换公式，让你从繁琐的公式编写中解脱出来。<br>具体来说，这个功能就是根据您所选定的一列数据，由AI帮您设计一个可以向下填充的公式，完成所有数据的批量转换。您所需要做的，只是提出转换要求或给出几个转换的示例。<br><img src="/images/DataTransFormula-1.png" alt="DataTransFormula-1.png" title="选项卡当中的按钮位置"></p>
@@ -1250,15 +1248,15 @@
 </blockquote>
 <h2 id="方式2：简易卸载"><a href="#方式2：简易卸载" class="headerlink" title="方式2：简易卸载"></a>方式2：简易卸载</h2><ul>
 <li>在Excel打开的状态，依次按下 <strong>Alt</strong>、<strong>t</strong>、<strong>i</strong> 三个键</li>
-<li>在弹出的【加载项】窗口中，去掉 <strong>Excel_Ai_Assistant_32</strong> 或 <strong>Excel_Ai_Assistant_64</strong> 的勾选，即可完成插件的卸载</li>
+<li>在弹出的【加载项】窗口中，去掉 <strong>Excel_Ai_Assistant</strong> 的勾选，即可完成插件的卸载</li>
 </ul>
 <p><img src="/images/Uninstall-1.png" alt="Uninstall-1.png" title="加载项窗口"></p>
 <h2 id="方式3：彻底卸载"><a href="#方式3：彻底卸载" class="headerlink" title="方式3：彻底卸载"></a>方式3：彻底卸载</h2><p>方式2的方法可以不让插件继续加载运行，但卸载并不彻底，会影响本插件新版本的正常安装。因此如果需要手动方式彻底卸载，可以参考以下操作：</p>
 <ul>
 <li>在Excel打开的状态，依次点击【文件】-【选项】，在窗口左侧列表中选择【加载项】</li>
-<li>在右侧窗口中，找到 <strong>Excel_Ai_Assistant_32</strong> 或 <strong>Excel_Ai_Assistant_64</strong> 的加载项，鼠标选中后会在下方显示文件所在的路径位置</li>
+<li>在右侧窗口中，找到 <strong>Excel_Ai_Assistant</strong> 的加载项，鼠标选中后会在下方显示文件所在的路径位置</li>
 <li>关闭Excel，根据上述文件路径，在电脑中找到具体的文件，将文件删除</li>
-<li>再次打开Excel，依次按下 <strong>Alt</strong>、<strong>t</strong>、<strong>i</strong> 三个键，在弹出的【加载项】窗口中，去点击 <strong>Excel_Ai_Assistant_32</strong> 或 <strong>Excel_Ai_Assistant_64</strong> 的勾选，会提示无法找到文件，然后实现删除</li>
+<li>再次打开Excel，依次按下 <strong>Alt</strong>、<strong>t</strong>、<strong>i</strong> 三个键，在弹出的【加载项】窗口中，去点击 <strong>Excel_Ai_Assistant</strong> 的勾选，会提示无法找到文件，然后实现删除</li>
 </ul>
 <hr>
 <h1 id="常见错误"><a href="#常见错误" class="headerlink" title="常见错误"></a>常见错误</h1><h2 id="AI服务请求失败"><a href="#AI服务请求失败" class="headerlink" title="AI服务请求失败"></a>AI服务请求失败</h2><p>某些时候，在使用插件程序的功能时会弹出 <strong>AI服务请求失败</strong> 的错误信息，这可能是由于网络的原因或AI服务器的供应能力问题，您可以稍等片刻重新尝试使用插件功能，多试几次。AI服务请求失败不会消耗您的AI电量。</p>
