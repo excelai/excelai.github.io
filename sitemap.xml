@@ -4,14 +4,21 @@
   <url>
     <loc>http://yoursite.com/announce/index.html</loc>
     
-    <lastmod>2023-11-29T11:43:18.782Z</lastmod>
+    <lastmod>2023-12-02T13:04:43.720Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/release/index.html</loc>
+    
+    <lastmod>2023-12-02T12:59:15.525Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/download/index.html</loc>
     
-    <lastmod>2023-09-21T14:31:07.567Z</lastmod>
+    <lastmod>2023-12-02T12:33:55.138Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2023-09-19T02:47:37.610Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/release/index.html</loc>
-    
-    <lastmod>2023-09-18T17:31:23.957Z</lastmod>
     
   </url>
   
